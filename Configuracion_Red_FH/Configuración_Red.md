@@ -32,18 +32,18 @@ Vamos a llevar a cabo la configuración de una pequeña red con dos máquinas.
 3. **Comprueba que los equipos se pueden ver usando ping.**
    - De Máquina A a Máquina B:
 
-        ![Captura](/Screenshots/Captura%20de%20pantalla%202025-05-08%20111949.png)
+        ![Captura](Screenshots/Captura%20de%20pantalla%202025-05-08%20111949.png)
 
    - De Máquina B a Máquina A:
 
-        ![Captura](/Screenshots/Captura%20de%20pantalla%202025-05-08%20111828.png)
+        ![Captura](Screenshots/Captura%20de%20pantalla%202025-05-08%20111828.png)
 
 4. **Haz que la configuración de ambas redes sea persistente.** Máquina A mediante Netplan y Máquina B mediante NetworkManager. 
 
    - En la Máquina A lo haremos en Netplan, para ello iremos a `nano /etc/netplan/01-network-manager-all.yaml` y pondremos la siguiente información:
 
-        ![Captura](/Screenshots/Captura%20de%20pantalla%202025-05-08%20112905.png)
+        ![Captura](Screenshots/Captura%20de%20pantalla%202025-05-08%20112905.png)
 
    - En la Máquina B lo haremos mediante NetworkManager. Para ello vamos a Configuración -> Red -> Enp0s8 -> IPV4 y lo configuraremos de tal manera:
 
-        ![Captura](/Screenshots/Captura%20de%20pantalla%202025-05-08%20120649.png)
+        ![Captura](Screenshots/Captura%20de%20pantalla%202025-05-08%20120649.png)
